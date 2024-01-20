@@ -132,6 +132,7 @@ margin: 0 auto;
   height: 56px;
   border-radius: 4px;
   margin: 0 auto;
+  border: none;
 }
 .button:hover, .button:focus {
   background-color: #404BBF;
