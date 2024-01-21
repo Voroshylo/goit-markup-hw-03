@@ -145,8 +145,16 @@ margin: 0 auto;
 .div-stra {
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .ul-stra-list {
   display: flex;
@@ -158,13 +166,32 @@ margin: 0 auto;
 .stra-h {
   margin-bottom: 8px;
 }
-
+/*team*/
 .team {
-background-color: #F4F4FD
+background-color: #F4F4FD;
+padding: 120px 0;
+}
+.team-title {
+  margin-bottom: 72px;
+}
+.ul-team-list {
+  display: flex;
+  gap: 24px;
+width: calc((100% - 72px) / 4);
+}
+.div-team-h-p {
+  padding: 32px 0;
+}
+.team-h {
+text-align: center;
+}
+.team-p {
+text-align: center;
 }
 
-.team-list {
-background-color: #FFFFFF
+.li-team-list {
+background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
 }
 .team-img {
   display: block;
