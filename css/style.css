@@ -160,9 +160,7 @@ margin: 0 auto;
   display: flex;
   gap: 24px;
 }
-.ul-stra-list .li-stra-list:first-child {
-  width: calc((100% - 72px) / 4);
-}
+
 .li-stra-list {
 }
 .stra-h {
@@ -177,15 +175,17 @@ padding: 120px 0;
   margin-bottom: 72px;
 }
 .div-team {
+  width: 1158px;
+  margin: 0 auto;
 }
 .ul-team-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
-.ul-team-list .li-team-list:first-child {
-width: calc((100% - 72px) / 4);
-}
+
 .li-team-list {
+  margin: 0 auto;
 }
 .div-team-h-p {
   padding: 32px 0;
