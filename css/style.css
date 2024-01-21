@@ -143,6 +143,8 @@ margin: 0 auto;
   padding: 120px 0;
 }
 .div-stra {
+    width: 1158px;
+    margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
@@ -162,6 +164,7 @@ margin: 0 auto;
 }
 
 .li-stra-list {
+  width: calc((100% - 72px) / 4);
 }
 .stra-h {
   margin-bottom: 8px;
@@ -181,11 +184,11 @@ padding: 120px 0;
 .ul-team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .li-team-list {
   margin: 0 auto;
+  width: calc((100% - 72px) / 4);
 }
 .div-team-h-p {
   padding: 32px 0;
