@@ -160,8 +160,10 @@ margin: 0 auto;
   display: flex;
   gap: 24px;
 }
-.li-stra-list {
+.ul-stra-list .li-stra-list:first-child {
   width: calc((100% - 72px) / 4);
+}
+.li-stra-list {
 }
 .stra-h {
   margin-bottom: 8px;
@@ -174,16 +176,23 @@ padding: 120px 0;
 .team-title {
   margin-bottom: 72px;
 }
+.div-team {
+}
 .ul-team-list {
   display: flex;
   gap: 24px;
+}
+.ul-team-list .li-team-list:first-child {
 width: calc((100% - 72px) / 4);
+}
+.li-team-list {
 }
 .div-team-h-p {
   padding: 32px 0;
 }
 .team-h {
 text-align: center;
+margin-bottom: 8px;
 }
 .team-p {
 text-align: center;
