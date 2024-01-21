@@ -103,7 +103,6 @@ width: 1440;
 height: 600;
 padding: auto;
 margin: 0 auto;
-
 }
 .sec-first {
   background-color: #2e2f42;
@@ -117,7 +116,8 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  margin: 0 auto;
+  max-height: 120px;
+  margin: auto;
 }
 .button {
   background-color: #4D5AE5;
@@ -131,8 +131,8 @@ margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
-  margin: 0 auto;
-  border: none;
+  margin: auto;
+  align-items: flex-start;
 }
 .button:hover, .button:focus {
   background-color: #404BBF;
