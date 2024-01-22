@@ -99,12 +99,11 @@ color: #404bbf
 /*sec-first*/
 .div-title {
 width: 1158;
-padding: 188px 0;
 margin: 0 auto;
 }
 .sec-first {
   background-color: #2e2f42;
-  padding: 120px;
+  padding: 188px 0;
 }
 .title {
   font-size: 56px;
