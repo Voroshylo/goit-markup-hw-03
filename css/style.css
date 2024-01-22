@@ -203,7 +203,10 @@ text-align: center;
 .team-img {
   display: block;
 }
-
+/*portfolio*/
+.port {
+  
+}
 .port-list {
   font-weight: 500;
   font-size: 20px;
