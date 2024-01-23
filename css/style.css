@@ -126,9 +126,10 @@ color: #404bbf
   font-weight: 700;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px;
   margin: 0 auto;
+  max-width: 496px;
   margin-bottom: 48px;
+  text-align: center;
 }
 .button {
   background-color: #4D5AE5;
@@ -182,6 +183,7 @@ padding: 120px 0;
 }
 .team-title {
   margin-bottom: 72px;
+  margin-top: 0;
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -228,7 +230,8 @@ margin-bottom: 8px;
   padding: 120px 0;
 }
 .port-title {
-margin-bottom: 72px;
+  margin-bottom: 72px;
+  margin-top: 0;
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -241,7 +244,7 @@ margin-bottom: 72px;
 .ul-port-list {
   column-gap: 24px;
   row-gap: 48px;
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
 .li-port-list {
@@ -260,7 +263,7 @@ margin-bottom: 72px;
 }
 .port-h {
   margin-bottom: 8px;
-    font-size: 20px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
