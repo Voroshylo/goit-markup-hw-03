@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -75,7 +84,9 @@ align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px
+  margin-right: 76px;
+  margin-bottom: 0;
+  padding: 24px 0;
 }
 .span-nav {
   color: #2e2f42;
@@ -95,13 +106,17 @@ a {
 color:#404bbf;
 }
 .address {
-  font-style: normal
+  font-style: normal;
+  margin: 0;
+  padding: 24px 0;
 }
 .contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#434455
+  color:#434455;
+  margin: 0;
+  padding: 24px 0;
 }
 .contacts:hover, .contacts:focus {
 color: #404bbf
