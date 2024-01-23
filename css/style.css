@@ -158,7 +158,7 @@ color: #404bbf
 }
 
 .li-stra-list {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .stra-h {
   margin-bottom: 8px;
