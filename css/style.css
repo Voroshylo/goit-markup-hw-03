@@ -50,6 +50,8 @@ align-items: center;
 .list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts-list {
   display: flex;
