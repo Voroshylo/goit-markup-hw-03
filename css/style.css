@@ -73,6 +73,7 @@ align-items: center;
   letter-spacing: 0.02em;
   color:#2e2f42;
   padding: 24px 0;
+  display:block;
 }
 
 .list-first:hover, .list-first:focus {
@@ -89,6 +90,7 @@ color:#404bbf;
   color: #4d5ae5;
   margin-right: 76px;
   margin-bottom: 0;
+  padding: 24px 0;
 }
 .span-nav {
   color: #2e2f42;
@@ -98,12 +100,12 @@ a {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
-  display: block;
 }
 
 .address {
   font-style: normal;
   margin: 0;
+  padding: 24px 0;
 }
 .contacts {
   font-size: 16px;
